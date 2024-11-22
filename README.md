@@ -9,7 +9,7 @@ Reads a Wifi Password QR Code from a Mac, a Windows or a Linux, so you don't hav
 ```sh
 git clone https://github.com/dparksports/wifi_qrcode_reader/
 cd wifi_qrcode_reader
-pip install - requirements
+pip install -r requirements.txt
 python read_qr_marker.py
 cat restored.txt
 ```
